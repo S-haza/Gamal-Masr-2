@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #99b080;
+}
+
+h1 {
+    color: #ecc371;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+p {
+    color: #f3f4f4;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+h2,
+h3 {
+    color: #fffefe;
+    margin-bottom: 20px;
+}
+
+.hero-section {
+    background-color: #748e63;
+    padding: 12px 20px;
+    border-radius: 8px;
+    display: flex;
+}
+
+.cards {
+    display: flex;
+    gap: 70px;
+}
+.card {
+    display: flex ;
+    gap: 20px;
+    max-width: 500px;
+    flex-direction: column;
+}
+.card-img {
+    display: block;
+    width: 100%;
+}
+
+.ap1 {
+    border-radius: 20px;
+}
+
+.apt2 {
+    border-radius: 20px;
+}
+
+.shop {
+    border-radius: 20px;
+    width: 100%;
+    height: 382px;
+    object-fit: fill;
+}
+
+.banner-img {
+    position: relative;
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 300pxpx;
+    object-fit: cover;
+    height: 400px;
+    margin-left: 100px;
+    mask-image: 
+    linear-gradient(to right,
+    transparent, rgb(64, 94, 64) 30%);
+}
+
+.highligh {
+    position: absolute;
+    bottom: 50px;;
+    left: 10px;
+    max-width: 200px;
+    color: aliceblue;
+    align-items: center;
+}
+
+.hero-text {
+    display: block;
+}
+
+.comapny-img {
+    display: block;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+ul {
+    margin-top: 0px;
+    padding-left: 20px;
+    color: white;
+}
+
+#intro {
+    position: fixed;
+    inset: 0;
+    background-color: #748e63;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+
+    opacity: 1;
+    transition: opacity 1.5s ease;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+#intro img {
+    width: 750px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#intro.hide {
+    opacity: 0;
+    pointer-events: none;
+}
+
+a {
+    color: #203017;
+}
+
+a:hover {
+    color: #96e9a1;
+}
+.number {
+    font-weight: 700;
+    color: #96e9a1;
+}
+
+.contact {
+    background-color: #203017;
+    padding: 15px 25px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
